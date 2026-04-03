@@ -1,1 +1,43 @@
-Nothing to output - the changes only include a README.md file which is a source/config file, and there are no build artifacts, dependencies, or temp files to ignore.
+```ruby
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+*.gem
+.bundle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Ruby specific
+*.rbc
+**/Gemfile.lock
+.bundle/
+vendor/bundle/
+vendor/cache/
+```
